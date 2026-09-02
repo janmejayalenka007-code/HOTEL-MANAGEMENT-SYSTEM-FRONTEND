@@ -1,0 +1,29 @@
+.footer {
+
+  margin-top: 80px;
+
+  text-align: center;
+
+  padding: 40px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  backdrop-filter:
+    blur(10px);
+
+  border-top:
+    1px solid rgba(255,255,255,.15);
+
+  color: white;
+}
+
+.footer h2 {
+
+  margin-bottom: 15px;
+}
+
+.footer p {
+
+  margin: 10px 0;
+}
