@@ -1,0 +1,85 @@
+/* Auth Pages - MakeMyTrip & myBiz Style */
+
+.auth-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--mmt-bg);
+}
+
+.auth-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid var(--mmt-border);
+  box-shadow: 0 12px 36px rgba(5, 20, 43, 0.1);
+  padding: 36px 32px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.auth-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--mmt-blue-light);
+  color: var(--mmt-blue-dark);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.auth-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--mmt-navy-dark);
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  font-size: 14px;
+  color: var(--mmt-text-muted);
+}
+
+.auth-submit-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  box-shadow: 0 4px 14px rgba(6, 90, 243, 0.35);
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--mmt-border-subtle);
+  font-size: 14px;
+  color: var(--mmt-text-muted);
+}
+
+.auth-link {
+  color: var(--mmt-blue-dark);
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
